@@ -1,4 +1,4 @@
-package exigen.students;
+package milka.milka.students;
 
 import java.util.ArrayList;
 import java.util.List;

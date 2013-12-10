@@ -1,4 +1,4 @@
-package exigen.students;
+package milka.milka.students;
 
 /**
  * Generates some random reply

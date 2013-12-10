@@ -1,4 +1,6 @@
-package exigen.students;
+package milka.milka.students;
+
+import org.apache.commons.lang.StringUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,7 +29,7 @@ public class App {
         while (true) {
             System.out.println("Можно ли мне... ");
             String question = bufferRead.readLine().trim();
-            if (question.isEmpty()) {
+            if (StringUtils.isEmpty(question)) {
                 continue;
             }
             if (isExitCommand(question)) {
